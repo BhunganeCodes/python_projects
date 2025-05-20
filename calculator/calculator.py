@@ -55,5 +55,5 @@ while True:
         divide(a, b)
 
     elif choice == "e" or choice == "E":
-        print("Program ended")
+        print("Program ended!")
         quit()
