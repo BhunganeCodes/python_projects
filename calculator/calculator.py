@@ -6,19 +6,19 @@
 
 def add(a, b):
     answer = a + b
-    print(str(a) + " + " + str(b) + " = " + str(answer) + "\n")
+    print(f"{a} + {b} = {answer}\n")
 
 def sub(a, b):
     answer = a - b
-    print(str(a) + " - " + str(b) + " = " + str(answer) + "\n")
+    print(f"{a} - {b} = {answer}\n")
 
 def multiply(a, b):
     answer = a * b
-    print(str(a) + " * " + str(b) + " = " + str(answer) + "\n")
+    print(f"{a} * {b} = {answer}\n")
 
 def divide(a, b):
     answer = a / b
-    print(str(a) + " / " + str(b) + " = " + str(answer) + "\n")
+    print(f"{a} / {b} = {answer}\n")
 
 
 while True:

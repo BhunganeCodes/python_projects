@@ -6,10 +6,3 @@ def fibonacci(n):
         a, b = b, a + b
 
 fibonacci(50)
-
-def fibo(number):
-    if number <= 1:
-        return number
-    return fibo(number - 1) + fibo(number - 2)
-
-print(fibo(10))
